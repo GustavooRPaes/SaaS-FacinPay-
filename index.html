@@ -10,16 +10,36 @@
 </head>
 <body>
     <header>
-        <h1>FacinPay</h1>
+        <h1 id="title">FacinPay</h1>
         <a href="index.html">Home</a>
         <a href="assina.html">Assinatura</a>
         <a href="">Sobre nós</a>
     </header>
-    <section>
-        <h1>Bem-vindo ao FacinPay!</h1>
-        <p>FacinPay é um app de gestão financeira que ajuda a simplificar 
-            suas economias e controlar seus gastos de maneira eficiente e simples.</p>
-    </section>
-     
+    <div class="container">
+        <section id="q1">
+            <h1>Bem-vindo ao FacinPay!</h1>
+            <p>FacinPay é um app de gestão financeira que ajuda a simplificar 
+                suas economias e controlar seus gastos de maneira eficiente e simples.</p><br>
+            <img id="logo" src="img/facinpay_logo.jpeg" alt="logo do FacinPay">
+        </section>
+        <section id="q1">
+            <h1>As perguntas mais frequentes de usuários</h1>
+            <div class="pergunta" onclick="resposta()">
+                <h2>O que é o FacinPay?</h2>
+                <p class="perguntinha" id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quae soluta vero blanditiis libero maxime,
+                ipsa saepe, possimus reiciendis, velit sapiente error aliquam non exercitationem iure eius sequi laudantium voluptates.</p>
+            </div>
+            <div class="pergunta">
+                <h2>Por que usar o FacinPay?</h2>
+                <p class="perguntinha" id="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quae soluta vero blanditiis libero maxime,
+                ipsa saepe, possimus reiciendis, velit sapiente error aliquam non exercitationem iure eius sequi laudantium voluptates.</p>
+            </div>
+        </section>
+        <!-- <div class="imagem">
+            
+        </div> -->
+    </div>
+
+    <script defer src="script/main.js"></script>
 </body>
 </html>

@@ -5,6 +5,8 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+/* tags semânticos */
+
 body{
 background-image: url(../img/dinheiro.jpg);
 background-repeat: no-repeat;
@@ -15,18 +17,20 @@ background-color: rgba(88, 179, 28, 0.644);
 header{
     display: flex;
     background-color: rgb(136, 173, 33);
-    text-align: left;
-    padding: 20px;
+    padding: 10px;
     font-size: 24px;
-    color: rgb(0, 0, 0);
-    height: 7vh;
+    height: 50px;
 }
 
 a{
     text-decoration: none;
-    color: rgb(0, 0, 0);
-    padding: 10px 20px;
-    margin: 0 10px;
+    color: rgb(46, 61, 3);
+    margin-left: 25px;
+    text-align: right;
+}
+
+p{
+    font-size: 25px;
 }
 
 h1{
@@ -34,21 +38,18 @@ h1{
     font-size: 36px;
 }
 
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 85vh;
-    color: rgb(63, 58, 9);
-}
 section{
     background-color: rgb(238, 228, 93);
     text-align: center;
     width: 30%;
-    height: 40%;
+    height: 45%;
     padding: 20px;
     margin: 30px;
     border-radius: 10px;
+}
+
+ul{
+    font-size: 20px;
 }
 
 li{
@@ -65,7 +66,33 @@ button{
 }
 
 img{
-    width: 100%;
+    width: 70%;
     height: auto;
     border-radius: 10px;
+}
+
+/* Tags não-semânticos */
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    color: rgb(63, 58, 9);
+}
+
+/* IDs */
+
+#logo{
+    display: inline-flex;
+    border-radius: 1000px;
+}
+
+#q1{
+    width: 600px;
+    height: 600px;
+}
+
+#title{
+    font-size: 30px;
 }
